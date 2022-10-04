@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 250px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(238, 202, 1);
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 15px;
+}
+button:hover {
+    background-color: rgb(138, 117, 0);
+}
+button:active {
+    transform: translate(2px, 2px);
+}
